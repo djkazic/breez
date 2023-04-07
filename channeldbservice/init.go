@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/breez/breez/chainservice"
-	"github.com/breez/breez/config"
+	"github.com/breez/breez/	config"
 	breezlog "github.com/breez/breez/log"
 	"github.com/breez/breez/refcount"
 	"github.com/btcsuite/btclog"
@@ -96,10 +96,10 @@ func deleteOldBootstrap(workingDir string) error {
 }
 
 func createService(workingDir string) (*channeldb.DB, error) {
-	config, err := config.GetConfig(workingDir)
-	if err != nil {
-		return nil, err
-	}
+	//config, err := config.GetConfig(workingDir)
+	//if err != nil {
+	//	return nil, err
+	//}
 	if logger == nil {
 		logger, err = breezlog.GetLogger(workingDir, "CHANNELDB")
 		if err != nil {
@@ -108,7 +108,7 @@ func createService(workingDir string) (*channeldb.DB, error) {
 		logger.SetLevel(btclog.LevelDebug)
 	}
 
-	graphDir := path.Join(workingDir, strings.Replace(directoryPattern, "{{network}}", config.Network, -1))
+	graphDir := path.Join(workingDir, strings.Replace(directoryPattern, "{{network}}", "mainnet", -1))
 	if err = compactDB(graphDir); err != nil {
 		logger.Errorf("Error in compactDB: %v", err)
 	}
