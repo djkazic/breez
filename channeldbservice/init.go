@@ -99,7 +99,7 @@ func createService(workingDir string) (*channeldb.DB, error) {
 	//if err != nil {
 	//	return nil, err
 	//}
-        var error err
+	var err error
 	if logger == nil {
 		logger, err = breezlog.GetLogger(workingDir, "CHANNELDB")
 		if err != nil {
