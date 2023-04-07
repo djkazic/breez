@@ -7,7 +7,6 @@ import (
 	"strings"
 
 	"github.com/breez/breez/chainservice"
-	"github.com/breez/breez/	config"
 	breezlog "github.com/breez/breez/log"
 	"github.com/breez/breez/refcount"
 	"github.com/btcsuite/btclog"
