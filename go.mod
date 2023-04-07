@@ -50,4 +50,6 @@ replace (
 	github.com/lightningnetwork/lnd/cert => github.com/breez/lnd/cert v1.1.2-0.20220717110818-cf98538153c2
 )
 
+exclude github.com/lightninglabs/neutrino/cache v1.1.1
+
 go 1.13
