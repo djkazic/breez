@@ -52,7 +52,7 @@ func GetLogWriter(workingDir string) (*build.RotatingLogWriter, error) {
 
 func initLog(workingDir string) {
 	initBackend.Do(func() {
-		cfg, err := config.GetConfig(workingDir)
+		_, err := config.GetConfig(workingDir)
 		if err != nil {
 			initError = err
 			return
