@@ -1,10 +1,7 @@
 package config
 
 import (
-	"path"
 	"sync"
-
-	flags "github.com/jessevdk/go-flags"
 )
 
 const (
@@ -55,10 +52,5 @@ func GetConfig(workingDir string) (*Config, error) {
 }
 
 func initConfig(workingDir string) error {
-	c := &Config{WorkingDir: workingDir}
-	if err := flags.IniParse(path.Join(workingDir, configFile), c); err != nil {
-		return err
-	}
-	cfg = c
 	return nil
 }
