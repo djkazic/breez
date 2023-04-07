@@ -59,7 +59,7 @@ func initLog(workingDir string) {
 		}
 		buildLogWriter := build.NewRotatingLogWriter()
 
-		filename := workingDir + "/logs/bitcoin/" + cfg.Network + "/lnd.log"
+		filename := workingDir + "/logs/bitcoin/mainnet/lnd.log"
 		err = buildLogWriter.InitLogRotator(filename, 10, 3)
 		if err != nil {
 			initError = err
