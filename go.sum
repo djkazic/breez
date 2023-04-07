@@ -85,8 +85,6 @@ github.com/breez/lnd v0.15.3-beta.rc1.0.20230320111621-99fa19e3e643 h1:47idb4G2k
 github.com/breez/lnd v0.15.3-beta.rc1.0.20230320111621-99fa19e3e643/go.mod h1:+GuNSibVEaRLwklnYj5Nh/7VOChAwz4edUFzSuAooK4=
 github.com/breez/lspd v0.0.0-20230216140105-14f93d934eb1 h1:YeNozvjzg1+hmzVkEsAVeJQFvDS152Z8bsuWchOgaTM=
 github.com/breez/lspd v0.0.0-20230216140105-14f93d934eb1/go.mod h1:b/gOqsUBpr0JwQmv6aKLZk36QcGoAoNVffKLwk9Sneg=
-github.com/breez/neutrino v0.14.3-0.20230403110849-764e81e4722d h1:ewigPEeEShOnz+pOSvwlfvfDLAKv45egkfA+Us5DE4k=
-github.com/breez/neutrino v0.14.3-0.20230403110849-764e81e4722d/go.mod h1:vnBjb4cBxiPajpWpkycssByp5zyGeJBVaFTfHilAOow=
 github.com/btcsuite/btcd v0.0.0-20190824003749-130ea5bddde3/go.mod h1:3J08xEfcugPacsc34/LKRU2yO7YmuT8yt28J8k2+rrI=
 github.com/btcsuite/btcd v0.20.1-beta/go.mod h1:wVuoA8VJLEcwgqHBwHmzLRazpKxTv13Px/pDuV7OomQ=
 github.com/btcsuite/btcd v0.22.0-beta.0.20220111032746-97732e52810c/go.mod h1:tjmYdS6MLJ5/s0Fj4DbLgSbDHbEqLJrtnHecBFkdz5M=
@@ -190,6 +188,8 @@ github.com/decred/dcrd/lru v1.1.0 h1:QwT6v8LFKOL3xQ3qtucgRk4pdiawrxIfCbUXWpm+JL4
 github.com/decred/dcrd/lru v1.1.0/go.mod h1:mxKOwFd7lFjN2GZYsiz/ecgqR6kkYAl+0pz0tEMk218=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
 github.com/dgryski/go-sip13 v0.0.0-20181026042036-e10d5fee7954/go.mod h1:vAd38F8PWV+bWy6jNmig1y/TA+kYO4g3RSRF0IAv0no=
+github.com/djkazic/neutrino v1.2.3 h1:k7Qw+TSK/Grrk7ieYRYq9ASIwhBdJKnFlQH5aGjqlMU=
+github.com/djkazic/neutrino v1.2.3/go.mod h1:vnBjb4cBxiPajpWpkycssByp5zyGeJBVaFTfHilAOow=
 github.com/dsnet/compress v0.0.1 h1:PlZu0n3Tuv04TzpfPbrnI0HW/YwodEXDS+oPKahKF0Q=
 github.com/dsnet/compress v0.0.1/go.mod h1:Aw8dCMJ7RioblQeTqt88akK31OvO8Dhf5JflhBbQEHo=
 github.com/dsnet/golib v0.0.0-20171103203638-1ea166775780/go.mod h1:Lj+Z9rebOhdfkVLjJ8T6VcRQv3SXugXy999NBtR9aFY=
