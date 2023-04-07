@@ -9,6 +9,7 @@ require (
 	github.com/btcsuite/btcwallet/walletdb v1.4.0
 	github.com/btcsuite/btcwallet/wtxmgr v1.5.0
 	github.com/decred/dcrd/lru v1.1.0 // indirect
+	github.com/djkazic/neutrino v0.6.9
 	github.com/golang/protobuf v1.5.2
 	github.com/lightninglabs/neutrino v0.14.2
 	github.com/lightninglabs/protobuf-hex-display v1.4.3-hex-display
@@ -27,7 +28,6 @@ replace (
 	github.com/btcsuite/btcwallet => github.com/breez/btcwallet v0.15.2-0.20220717090508-739787f948a6
 	github.com/btcsuite/btcwallet/walletdb => github.com/breez/btcwallet/walletdb v1.4.1-0.20220717090508-739787f948a6
 	github.com/btcsuite/btcwallet/wtxmgr => github.com/breez/btcwallet/wtxmgr v1.5.1-0.20220717090508-739787f948a6
-	github.com/lightninglabs/neutrino => github.com/djkazic/neutrino v1.2.3
 	github.com/lightningnetwork/lnd => github.com/breez/lnd v0.15.0-beta.rc6.0.20220717110818-cf98538153c2
 	github.com/lightningnetwork/lnd/cert => github.com/breez/lnd/cert v1.1.2-0.20220717110818-cf98538153c2
 )

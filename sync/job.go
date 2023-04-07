@@ -11,7 +11,7 @@ import (
 	"github.com/breez/breez/chainservice"
 	"github.com/breez/breez/db"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/lightninglabs/neutrino"
+	"github.com/djkazic/neutrino"
 )
 
 const (
